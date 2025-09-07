@@ -1,0 +1,11 @@
+env
+/env
+*/.cpython-version
+db.sqlite3
+cert.crt
+.env
+*.pyc
+*.sqlite3
+*.crt
+*.key
+.DS_Store
