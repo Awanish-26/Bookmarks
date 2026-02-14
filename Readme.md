@@ -1,6 +1,8 @@
-# Bookmarks
+# Markr
 
 A Django-powered bookmarking platform that lets users discover, save, and curate images with social interactions. Features seamless browser integration via bookmarklet, user authentication, image ranking, and activity tracking—all built on a solid foundation of Django best practices.
+
+![Project Image](assets/image.png)
 
 ## Project Structure
 
@@ -33,6 +35,7 @@ A Django-powered bookmarking platform that lets users discover, save, and curate
 ```bash
 pip install -r requiements.txt
 python manage.py migrate
+docker run -it --rm --name redis -p 6379:6379 redis
 python manage.py runserver
 ```
 
