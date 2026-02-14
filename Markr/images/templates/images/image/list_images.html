@@ -6,7 +6,7 @@
         <a href="{{ image.get_absolute_url }}"><img src="{{ im.url }}" /></a>
     </a>
     <div class="info">
-        <a href="{{ image.get_absolute_url }}" class="title">{{ image.title }}</a>
+        <a href="{{ image.get_absolute_url }}" class="title">{{ image.title | truncatewords:8 }}</a>
     </div>
 </div>
 {% endfor %}
